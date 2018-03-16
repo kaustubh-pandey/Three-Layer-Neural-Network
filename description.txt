@@ -1,0 +1,36 @@
+1. Title: Letter Image Recognition Data 
+
+2. Source Information
+   -- Creator: David J. Slate
+     -- Odesta Corporation; 1890 Maple Ave; Suite 115; Evanston, IL 60201
+   -- Donor: David J. Slate (dave@math.nwu.edu) (708) 491-3867   
+   -- Date: January, 1991
+
+3. Number of Instances: 7649
+
+4. Number of Attributes: 17 (Class Label and 16 numeric features)
+
+5. Attribute Information:
+	 1.	lettr	capital letter	(26 values from A to Z)
+	 2.	x-box	horizontal position of box	(integer)
+	 3.	y-box	vertical position of box	(integer)
+	 4.	width	width of box			(integer)
+	 5.	high 	height of box			(integer)
+	 6.	onpix	total # on pixels		(integer)
+	 7.	x-bar	mean x of on pixels in box	(integer)
+	 8.	y-bar	mean y of on pixels in box	(integer)
+	 9.	x2bar	mean x variance			(integer)
+	10.	y2bar	mean y variance			(integer)
+	11.	xybar	mean x y correlation		(integer)
+	12.	x2ybr	mean of x * x * y		(integer)
+	13.	xy2br	mean of x * y * y		(integer)
+	14.	x-ege	mean edge count left to right	(integer)
+	15.	xegvy	correlation of x-ege with y	(integer)
+	16.	y-ege	mean edge count bottom to top	(integer)
+	17.	yegvx	correlation of y-ege with x	(integer)
+
+6. Missing Attribute Values: None
+
+7. Class Distribution:
+ 	789 A	   766 B     736 C     805 D	 768 E	   775 F     773 G
+ 	734 H	   755 I     747 J    
