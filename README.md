@@ -13,7 +13,7 @@ Accuracy acchieved : Max accuracy achieved using 0.01 learning rate over 600 epo
 
 Sum of Squared Error has been used as the cost function
 
-##How to run
+## How to run
 
 Compile using: gcc nn.c -lm
 Run: ./a.out
